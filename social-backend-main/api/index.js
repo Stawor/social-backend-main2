@@ -4,9 +4,9 @@ import "dotenv/config";
 import cors from "cors";
 import helmet from "helmet";
 import morgan from "morgan";
-import router from "./routes/users.js";
-import auth from "./routes/auth.js";
-import posts from "./routes/posts.js";
+import router from "../routes/users.js";
+import auth from "../routes/auth.js";
+import posts from "../routes/posts.js";
 
 const app = express();
 const port = process.env.PORT || 3000;
